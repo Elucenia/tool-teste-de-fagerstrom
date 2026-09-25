@@ -1,0 +1,101 @@
+[
+  {
+    "label": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+    "input": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0"
+    },
+    "expected": {
+      "score": 0,
+      "level": "low",
+      "verdict": "muito baixa"
+    },
+    "originalInput": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+    "input": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0"
+    },
+    "expected": {
+      "score": 4,
+      "level": "low",
+      "verdict": "baixa"
+    },
+    "originalInput": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+    "input": {
+      "q1": "2",
+      "q2": "0",
+      "q3": "0",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expected": {
+      "score": 5,
+      "level": "mid"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "0",
+      "q3": "0",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+    "input": {
+      "q1": "3",
+      "q2": "0",
+      "q3": "1",
+      "q4": "2",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expected": {
+      "score": 8,
+      "level": "high",
+      "verdict": "muito elevada"
+    },
+    "originalInput": {
+      "q1": "3",
+      "q2": "0",
+      "q3": "1",
+      "q4": "2",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]
