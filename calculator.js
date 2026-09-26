@@ -1,11 +1,11 @@
-/* tool-teste-de-fagerstrom · Elucenia · https://github.com/Elucenia/tool-teste-de-fagerstrom
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-teste-de-fagerstrom · ELUCENIA · https://github.com/Elucenia/tool-teste-de-fagerstrom
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"teste-de-fagerstrom","title":"Teste de Fagerström","fields":[["q1","Quanto tempo após acordar você fuma o primeiro cigarro?","radio",{"opts":{"0":"Mais de 60 minutos","1":"De 31 a 60 minutos","2":"De 6 a 30 minutos","3":"Nos primeiros 5 minutos"}}],["q2","Você acha difícil não fumar em lugares proibidos?","radio",{"opts":{"0":"Não","1":"Sim"}}],["q3","Qual cigarro do dia traz mais satisfação (ou seria o mais difícil de largar)?","radio",{"opts":{"0":"Qualquer outro","1":"O primeiro da manhã"}}],["q4","Quantos cigarros você fuma por dia?","radio",{"opts":{"0":"10 ou menos","1":"11 a 20","2":"21 a 30","3":"31 ou mais"}}],["q5","Você fuma mais frequentemente nas primeiras horas após acordar do que no resto do dia?","radio",{"opts":{"0":"Não","1":"Sim"}}],["q6","Você fuma mesmo quando está doente a ponto de ficar acamado a maior parte do tempo?","radio",{"opts":{"0":"Não","1":"Sim"}}]],"config":{"unit":"","label":"Teste de Fagerström","fields":[["q1","radio",0],["q2","radio",0],["q3","radio",0],["q4","radio",0],["q5","radio",0],["q6","radio",0]],"bands":[[0,"low","Dependência muito baixa (0 a 2 pontos)","Abordagem cognitivo-comportamental pode ser suficiente; farmacoterapia conforme avaliação individual."],[3,"low","Dependência baixa (3 a 4 pontos)","Pelo PCDT, Fagerström ≤ 4 é um dos critérios para priorizar a abordagem comportamental isolada."],[5,"mid","Dependência média (5 pontos)","Associar abordagem cognitivo-comportamental e farmacoterapia costuma ser indicado."],[6,"high","Dependência elevada (6 a 7 pontos)","Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."],[8,"high","Dependência muito elevada (8 a 10 pontos)","Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
