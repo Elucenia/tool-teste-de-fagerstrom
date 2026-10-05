@@ -1,0 +1,848 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "teste-de-fagerstrom",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/teste-de-fagerstrom/calculator.js",
+    "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22",
+    "bytes": 5799
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "teste-de-fagerstrom",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+      "originalInput": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0"
+      },
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 0,
+        "level": "low",
+        "verdict": "muito baixa"
+      },
+      "recordedResult": {
+        "main": [
+          "0",
+          "pontos"
+        ],
+        "label": "Teste de Fagerström",
+        "raw": {
+          "score": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "0",
+            "q2": "0",
+            "q3": "0",
+            "q4": "0",
+            "q5": "0",
+            "q6": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+          "startedAt": "2026-10-05T17:39:54.578Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "teste-de-fagerstrom",
+              "main": [
+                "0",
+                "pontos"
+              ],
+              "label": "Teste de Fagerström",
+              "raw": {
+                "score": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "2889c83453631b98aec4f8221d69869957347574002f6b11cce4105ae715a83a",
+          "bytes": 147,
+          "elapsedMs": 7.103600000002189
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "startedAt": "2026-10-05T17:39:54.578Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "teste-de-fagerstrom",
+            "main": [
+              "0",
+              "pontos"
+            ],
+            "label": "Teste de Fagerström",
+            "raw": {
+              "score": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "2889c83453631b98aec4f8221d69869957347574002f6b11cce4105ae715a83a",
+        "bytes": 147,
+        "elapsedMs": 7.103600000002189
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "0",
+            "obtained": "0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "pontos",
+            "obtained": "pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "teste-de-fagerstrom",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+      "originalInput": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "0",
+        "q6": "0"
+      },
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "0",
+        "q6": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 4,
+        "level": "low",
+        "verdict": "baixa"
+      },
+      "recordedResult": {
+        "main": [
+          "4",
+          "pontos"
+        ],
+        "label": "Teste de Fagerström",
+        "raw": {
+          "score": 4
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "1",
+            "q2": "1",
+            "q3": "1",
+            "q4": "1",
+            "q5": "0",
+            "q6": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+          "startedAt": "2026-10-05T17:39:54.878Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "teste-de-fagerstrom",
+              "main": [
+                "4",
+                "pontos"
+              ],
+              "label": "Teste de Fagerström",
+              "raw": {
+                "score": 4
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "8da52f88f9eaa0fee0d92a732c5760933c4d16808851bbd071feb72f76a6a34d",
+          "bytes": 147,
+          "elapsedMs": 6.538000000000466
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "startedAt": "2026-10-05T17:39:54.878Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "teste-de-fagerstrom",
+            "main": [
+              "4",
+              "pontos"
+            ],
+            "label": "Teste de Fagerström",
+            "raw": {
+              "score": 4
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "8da52f88f9eaa0fee0d92a732c5760933c4d16808851bbd071feb72f76a6a34d",
+        "bytes": 147,
+        "elapsedMs": 6.538000000000466
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "4",
+            "obtained": "4",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "pontos",
+            "obtained": "pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "teste-de-fagerstrom",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+      "originalInput": {
+        "q1": "2",
+        "q2": "0",
+        "q3": "0",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1"
+      },
+      "input": {
+        "q1": "2",
+        "q2": "0",
+        "q3": "0",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 5,
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "5",
+          "pontos"
+        ],
+        "label": "Teste de Fagerström",
+        "raw": {
+          "score": 5
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "2",
+            "q2": "0",
+            "q3": "0",
+            "q4": "1",
+            "q5": "1",
+            "q6": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+          "startedAt": "2026-10-05T17:39:55.190Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "teste-de-fagerstrom",
+              "main": [
+                "5",
+                "pontos"
+              ],
+              "label": "Teste de Fagerström",
+              "raw": {
+                "score": 5
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "29c7d29d8b197fd64e2e27e7e5ac7f9ec23e6594e2c1774add106ca66a96a555",
+          "bytes": 147,
+          "elapsedMs": 4.10120000000461
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "startedAt": "2026-10-05T17:39:55.190Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "teste-de-fagerstrom",
+            "main": [
+              "5",
+              "pontos"
+            ],
+            "label": "Teste de Fagerström",
+            "raw": {
+              "score": 5
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "29c7d29d8b197fd64e2e27e7e5ac7f9ec23e6594e2c1774add106ca66a96a555",
+        "bytes": 147,
+        "elapsedMs": 4.10120000000461
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "5",
+            "obtained": "5",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "pontos",
+            "obtained": "pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "teste-de-fagerstrom",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+      "originalInput": {
+        "q1": "3",
+        "q2": "0",
+        "q3": "1",
+        "q4": "2",
+        "q5": "1",
+        "q6": "1"
+      },
+      "input": {
+        "q1": "3",
+        "q2": "0",
+        "q3": "1",
+        "q4": "2",
+        "q5": "1",
+        "q6": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 8,
+        "level": "high",
+        "verdict": "muito elevada"
+      },
+      "recordedResult": {
+        "main": [
+          "8",
+          "pontos"
+        ],
+        "label": "Teste de Fagerström",
+        "raw": {
+          "score": 8
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "3",
+            "q2": "0",
+            "q3": "1",
+            "q4": "2",
+            "q5": "1",
+            "q6": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+          "startedAt": "2026-10-05T17:39:55.502Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "teste-de-fagerstrom",
+              "main": [
+                "8",
+                "pontos"
+              ],
+              "label": "Teste de Fagerström",
+              "raw": {
+                "score": 8
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "bebb24938f5ec52afbd561e778ae733b6e82f026595ef6659a44304204670dc8",
+          "bytes": 147,
+          "elapsedMs": 3.351599999994505
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/teste-de-fagerstrom/calculate",
+        "startedAt": "2026-10-05T17:39:55.502Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "teste-de-fagerstrom",
+            "main": [
+              "8",
+              "pontos"
+            ],
+            "label": "Teste de Fagerström",
+            "raw": {
+              "score": 8
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "bebb24938f5ec52afbd561e778ae733b6e82f026595ef6659a44304204670dc8",
+        "bytes": 147,
+        "elapsedMs": 3.351599999994505
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "8",
+            "obtained": "8",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "pontos",
+            "obtained": "pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
