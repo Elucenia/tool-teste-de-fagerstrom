@@ -3,6 +3,9 @@
     "id": "teste-de-fagerstrom",
     "title": "Teste de Fagerström",
     "short": "Grau de dependência à nicotina",
+    "desc": "Teste de Fagerström para dependência à nicotina (FTND), com as faixas usadas pelo Ministério da Saúde no Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo.",
+    "lead": "Avalia o grau de dependência física à nicotina em fumantes de cigarro, para planejar o tratamento e a necessidade de farmacoterapia.",
+    "kind": "Escore",
     "spec": [
       "medicina-de-familia-e-comunidade",
       "pneumologia",
@@ -10,9 +13,6 @@
       "cardiologia",
       "medicina-preventiva-e-social"
     ],
-    "tier": 1,
-    "desc": "Teste de Fagerström para dependência à nicotina (FTND), com as faixas usadas pelo Ministério da Saúde no Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo.",
-    "lead": "Avalia o grau de dependência física à nicotina em fumantes de cigarro, para planejar o tratamento e a necessidade de farmacoterapia.",
     "fields": [
       [
         "q1",
@@ -85,77 +85,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "Teste de Fagerström",
-      "unit": "",
-      "bands": [
-        [
-          0,
-          "low",
-          "Dependência muito baixa (0 a 2 pontos)",
-          "Abordagem cognitivo-comportamental pode ser suficiente; farmacoterapia conforme avaliação individual."
-        ],
-        [
-          3,
-          "low",
-          "Dependência baixa (3 a 4 pontos)",
-          "Pelo PCDT, Fagerström ≤ 4 é um dos critérios para priorizar a abordagem comportamental isolada."
-        ],
-        [
-          5,
-          "mid",
-          "Dependência média (5 pontos)",
-          "Associar abordagem cognitivo-comportamental e farmacoterapia costuma ser indicado."
-        ],
-        [
-          6,
-          "high",
-          "Dependência elevada (6 a 7 pontos)",
-          "Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."
-        ],
-        [
-          8,
-          "high",
-          "Dependência muito elevada (8 a 10 pontos)",
-          "Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."
-        ]
-      ]
-    },
     "formula": "<p>Seis perguntas. Tempo até o primeiro cigarro: ≤ 5 min 3, 6 a 30 min 2, 31 a 60 min 1, &gt; 60 min 0. Cigarros por dia: ≤ 10 0, 11 a 20 1, 21 a 30 2, ≥ 31 3. As outras quatro perguntas valem 1 ponto se a resposta for sim (ou \"o primeiro da manhã\"). Total de 0 a 10.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Grau de dependência"
-      ],
-      [
-        "0 a 2",
-        "Muito baixo"
-      ],
-      [
-        "3 a 4",
-        "Baixo"
-      ],
-      [
-        "5",
-        "Médio"
-      ],
-      [
-        "6 a 7",
-        "Elevado"
-      ],
-      [
-        "8 a 10",
-        "Muito elevado"
-      ]
-    ],
-    "table_note": "Faixas do Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo (Ministério da Saúde, 2020). Pelo protocolo, pontuação acima de 6 indica maior chance de sintomas de abstinência.",
-    "tips": [
-      "O PCDT prioriza a abordagem comportamental isolada em quem tem uma ou mais destas características: ausência de sintomas de abstinência, até 5 cigarros por dia, primeiro cigarro 1 hora ou mais após acordar, ou Fagerström ≤ 4.",
-      "As duas perguntas de maior peso (tempo até o primeiro cigarro e cigarros por dia) formam o Heaviness of Smoking Index, útil quando não há tempo para o teste completo.",
-      "O teste foi feito para cigarro industrializado: não se aplica bem a narguilé, cigarro eletrônico, charuto ou fumantes ocasionais.",
-      "Proibições de fumar em ambientes fechados mudaram o padrão de uso: fumantes dependentes podem pontuar pouco na pergunta sobre lugares proibidos.",
-      "Registre também a carga tabágica (maços-ano) e o estágio de motivação: são eles, junto com o Fagerström, que orientam o plano de cessação."
-    ],
     "sources": [
       [
         "Heatherton TF, Kozlowski LT, Frecker RC, Fagerström KO. The Fagerström Test for Nicotine Dependence: a revision of the Fagerström Tolerance Questionnaire. Br J Addict, 1991.",
@@ -235,76 +165,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "",
-      "label": "Teste de Fagerström",
-      "fields": [
-        [
-          "q1",
-          "radio",
-          0
-        ],
-        [
-          "q2",
-          "radio",
-          0
-        ],
-        [
-          "q3",
-          "radio",
-          0
-        ],
-        [
-          "q4",
-          "radio",
-          0
-        ],
-        [
-          "q5",
-          "radio",
-          0
-        ],
-        [
-          "q6",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Dependência muito baixa (0 a 2 pontos)",
-          "Abordagem cognitivo-comportamental pode ser suficiente; farmacoterapia conforme avaliação individual."
-        ],
-        [
-          3,
-          "low",
-          "Dependência baixa (3 a 4 pontos)",
-          "Pelo PCDT, Fagerström ≤ 4 é um dos critérios para priorizar a abordagem comportamental isolada."
-        ],
-        [
-          5,
-          "mid",
-          "Dependência média (5 pontos)",
-          "Associar abordagem cognitivo-comportamental e farmacoterapia costuma ser indicado."
-        ],
-        [
-          6,
-          "high",
-          "Dependência elevada (6 a 7 pontos)",
-          "Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."
-        ],
-        [
-          8,
-          "high",
-          "Dependência muito elevada (8 a 10 pontos)",
-          "Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -313,17 +173,530 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T19:08:23.486Z",
+      "total": 256,
+      "passed": 256,
+      "sourceRowCount": 256,
+      "uniqueApiInputCount": 256,
+      "sourceContextCount": 256,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "0a27f6237606d1e6718ac086c247313d0be785106af310702cff3940812b0bec",
+        "total": 256,
+        "bankRowCount": 256,
+        "uniqueApiInputCount": 256,
+        "sourceContextCount": 256,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/three-further-score-independent-expectations-final27.json",
+            "sha256": "791c518211ed474467ea57bd1765e111b0f623894f1654cb2dc53620ad7cbb07"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/three-further-score-source-comparison-final27.json",
+          "sha256": "47060a3f80865748c4e6ffb9758384bbc870069734ed6feee99ac652610f922b"
+        },
+        "packagingRequirement": "After source27 composition, rebind exact calculator SHA for documented text-only edits and replay the full scope before fresh packaging."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 256,
+        "uniqueApiInputs": 256,
+        "duplicateRows": 0,
+        "expectationAudit": {
+          "file": "reports/review-20261003/three-further-score-independent-expectations-final27.json",
+          "sha256": "791c518211ed474467ea57bd1765e111b0f623894f1654cb2dc53620ad7cbb07"
+        }
+      },
+      "scope": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+      "sources": [
+        {
+          "id": "teste-de-fagerstrom",
+          "declaredEdition": "FTND/Heatherton 1991:6 itens, total 0–10; sem Tolerance Questionnaireoriginal; PCDTtabagismo 2020",
+          "readRecords": [
+            {
+              "id": "teste-de-fagerstrom",
+              "edition": "Heatherton et al. 1991, British Journal of Addiction86:1119–1127, Table3 p1125",
+              "url": "https://doi.org/10.1111/j.1360-0443.1991.tb01879.x",
+              "retrievalURL": "https://cpb-us-e1.wpmucdn.com/sites.dartmouth.edu/dist/4/869/files/2010/10/91_Heatherton_etal_BJA.pdf",
+              "file": "fagerstrom-heatherton-1991-author-final27.pdf",
+              "readPages": [
+                7
+              ],
+              "observations": "Six source-assigned item values are summed. Questions1 and4 each range0–3; questions2/3/5/6 each range0–1. Q1 bands: within5min,6–30min,31–60min,after60min. Q4:10orless,11–20,21–30,31ormore. Maximum10. This bank checks every assigned point tuple, not diagnosis or respondent interviewing.",
+              "unchecked": [
+                "Only named Table3 and surrounding text visually read, not complete original paper.",
+                "No nicotine-dependence diagnostic cutoff, current/lifetime PhenX interview, psychometric or cross-language validation.",
+                "Permission note printed under Table3 requires author permission for other research purposes; ELUCENIA rights approval remains not-performed."
+              ],
+              "sha256": "7e995c4911640a73d63fa305005864af1592f7676c228052cc34cec348bb0580",
+              "visualEvidence": [
+                {
+                  "file": "fagerstrom-heatherton-1991-author-final27-p7.png",
+                  "sha256": "8cdc939785ae7b94ad159a02cbddaa67a4a57d0422d1767aa542acb8e8fb9ef1"
+                }
+              ],
+              "clinicalApproval": "not-performed",
+              "professionalLanguageApproval": "not-performed",
+              "sourceRightsApproval": "not-performed"
+            },
+            {
+              "id": "teste-de-fagerstrom",
+              "edition": "Brazil PCDT Tabagismo2020, Quadro1 PDFp8",
+              "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt_tabagismo.pdf/@@display-file/file",
+              "file": "fagerstrom-pcdt-2020-final27.pdf",
+              "readPages": [
+                8
+              ],
+              "observations": "Protocol table prints Less than10 and More than31, unlike original1991 inclusive endpoints10/31. This typographic coverage difference is retained; original Table3, not silent filling of this table, binds the new point bank. The protocol notes that the instrument does not encompass every smoking pattern.",
+              "unchecked": [
+                "Remaining PCDT sections not included in this new visual reading.",
+                "Treatment or dependence classifications not approved by a point bank."
+              ],
+              "sha256": "bd3476aae32adff7069800c9ef3df247a5cea8aadd30ffffb11b65505c25f3d2",
+              "visualEvidence": [
+                {
+                  "file": "fagerstrom-pcdt-2020-final27-p8.png",
+                  "sha256": "4ff0c152502a6d0dd6be10356fdbf87ff2ca37a48cb2c3a0f5858a272605f534"
+                }
+              ],
+              "clinicalApproval": "not-performed",
+              "professionalLanguageApproval": "not-performed",
+              "sourceRightsApproval": "not-performed"
+            }
+          ],
+          "sourceReview": {
+            "file": "reports/review-20261003/three-further-score-primary-review-final27.json",
+            "sha256": "49449018ee564d2d981ad126b2fb703ee1c78124d83e122bc12ec256c7f5d0f0"
+          },
+          "sourceComponent": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/three-further-score-source-comparison-final27.json",
+      "evidenceSha256": "47060a3f80865748c4e6ffb9758384bbc870069734ed6feee99ac652610f922b",
+      "independentPeer": {
+        "status": "passed",
+        "scope": "Independent reading of named source sections and own expectation derivation/execution. Bank/metadata packaging needs a separate technical peer. No human clinical, translation or rights approval.",
+        "peer": {
+          "file": "reports/review-20261003/three-further-score-source-independent-review-western-final27-r2.json",
+          "sha256": "8f28bb21326d78494fc35cd16dfe612d77337f815fccb318eab269a44a9c4999"
+        },
+        "peerScope": "Independent source-section peer and own assigned-point integer expectations, frozen before imports; three current adapters Node and same-source browser-compatible VM. This is a bounded sum check and does not approve the whole clinical instrument, rubric, population expansion, diagnosis, discharge, rights or professional translation.",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "metadataPackagingPeer": {
+        "status": "passed",
+        "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+        "peer": {
+          "file": "reports/review-20261003/nine-source-bank-metadata-independent-review-western-final27.json",
+          "sha256": "e762e0f425c9251081547c86e4f1b80b86839a21223fd47712ebde9b1335a978"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "actualAdapterExecutions": 768,
+      "actualVmExecutions": 768,
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        }
+      ],
+      "qualifications": [
+        "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+        "Original source conflicts, rights conditions, population and clinical limitations remain in the hashed primary review and peer. They are not marked approved.",
+        "Four inline records are a subset of the complete hashed downloadable bank. Every862historicalfixture and method field/formula/version is unchanged by this evidence-only candidate."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "prospectiveSource27Bindings": [
+        {
+          "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/teste-de-fagerstrom/calculator.js",
+          "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+        }
+      ],
+      "prospectiveSource27Replay": {
+        "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+        "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "FTND/Heatherton 1991:6 itens, total 0–10; sem Tolerance Questionnaireoriginal; PCDTtabagismo 2020",
+    "implementationVersion": "teste-de-fagerstrom@native-2026-10-03+5f7b36571494",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/1932883/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Seis perguntas. Tempo até o primeiro cigarro: ≤ 5 min 3, 6 a 30 min 2, 31 a 60 min 1, > 60 min 0. Cigarros por dia: ≤ 10 0, 11 a 20 1, 21 a 30 2, ≥ 31 3. As outras quatro perguntas valem 1 ponto se a resposta for sim (ou \"o primeiro da manhã\"). Total de 0 a 10.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "Quanto tempo após acordar você fuma o primeiro cigarro?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Mais de 60 minutos",
+              "1": "De 31 a 60 minutos",
+              "2": "De 6 a 30 minutos",
+              "3": "Nos primeiros 5 minutos"
+            }
+          },
+          {
+            "key": "q2",
+            "label": "Você acha difícil não fumar em lugares proibidos?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Não",
+              "1": "Sim"
+            }
+          },
+          {
+            "key": "q3",
+            "label": "Qual cigarro do dia traz mais satisfação (ou seria o mais difícil de largar)?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Qualquer outro",
+              "1": "O primeiro da manhã"
+            }
+          },
+          {
+            "key": "q4",
+            "label": "Quantos cigarros você fuma por dia?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "10 ou menos",
+              "1": "11 a 20",
+              "2": "21 a 30",
+              "3": "31 ou mais"
+            }
+          },
+          {
+            "key": "q5",
+            "label": "Você fuma mais frequentemente nas primeiras horas após acordar do que no resto do dia?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Não",
+              "1": "Sim"
+            }
+          },
+          {
+            "key": "q6",
+            "label": "Você fuma mesmo quando está doente a ponto de ficar acamado a maior parte do tempo?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Não",
+              "1": "Sim"
+            }
+          }
+        ],
+        "hash": "0bbfeff5765cc9eb469ee1ede79aec5e9ddb0b39e61502ca1a8670383c437f11"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Heatherton TF, Kozlowski LT, Frecker RC, Fagerström KO. The Fagerström Test for Nicotine Dependence: a revision of the Fagerström Tolerance Questionnaire. Br J Addict, 1991.",
+          "url": "https://doi.org/10.1111/j.1360-0443.1991.tb01879.x",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The Fagerström Test for Nicotine Dependence: a revision of the Fagerström Tolerance Questionnaire.",
+            "year": "1991",
+            "firstPublicationDate": "1991-09-01",
+            "doi": "10.1111/j.1360-0443.1991.tb01879.x",
+            "pmid": "1932883",
+            "journal": "British journal of addiction",
+            "authors": "Heatherton TF, Kozlowski LT, Frecker RC, Fagerström KO."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/1932883/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "4bdb5535830e26037b5f7c54cac65e6ef2c4ab18629f049256ec787285e6fb3e",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Meneses-Gaya IC, Zuardi AW, Loureiro SR, Crippa JAS. Psychometric properties of the Fagerström Test for Nicotine Dependence. J Bras Pneumol, 2009.",
+          "url": "https://doi.org/10.1590/S1806-37132009000100011",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Psychometric properties of the Fagerström Test for Nicotine Dependence.",
+            "year": "2009",
+            "firstPublicationDate": "2009-01-01",
+            "doi": "10.1590/s1806-37132009000100011",
+            "pmid": "19219334",
+            "journal": "Jornal brasileiro de pneumologia : publicacao oficial da Sociedade Brasileira de Pneumologia e Tisilogia",
+            "authors": "Meneses-Gaya IC, Zuardi AW, Loureiro SR, Crippa JA."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/19219334/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "0e57dbb0972c32e43425efbb9e90bbea09b38c1ea4b0f2e3454cc1ea04d0fdfd",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Tabagismo (Conitec), 2020.",
+          "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt_tabagismo.pdf",
+          "class": "source-access-inconclusive",
+          "publicationEditionConfirmed": false,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "reason": "Institutional or legislative URL requires individual browser review; not a publication DOI."
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T19:08:23.486Z",
+        "total": 256,
+        "passed": 256,
+        "sourceRowCount": 256,
+        "uniqueApiInputCount": 256,
+        "sourceContextCount": 256,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "0a27f6237606d1e6718ac086c247313d0be785106af310702cff3940812b0bec",
+          "total": 256,
+          "bankRowCount": 256,
+          "uniqueApiInputCount": 256,
+          "sourceContextCount": 256,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/three-further-score-independent-expectations-final27.json",
+              "sha256": "791c518211ed474467ea57bd1765e111b0f623894f1654cb2dc53620ad7cbb07"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/three-further-score-source-comparison-final27.json",
+            "sha256": "47060a3f80865748c4e6ffb9758384bbc870069734ed6feee99ac652610f922b"
+          },
+          "packagingRequirement": "After source27 composition, rebind exact calculator SHA for documented text-only edits and replay the full scope before fresh packaging."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 256,
+          "uniqueApiInputs": 256,
+          "duplicateRows": 0,
+          "expectationAudit": {
+            "file": "reports/review-20261003/three-further-score-independent-expectations-final27.json",
+            "sha256": "791c518211ed474467ea57bd1765e111b0f623894f1654cb2dc53620ad7cbb07"
+          }
+        },
+        "scope": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+        "sources": [
+          {
+            "id": "teste-de-fagerstrom",
+            "declaredEdition": "FTND/Heatherton 1991:6 itens, total 0–10; sem Tolerance Questionnaireoriginal; PCDTtabagismo 2020",
+            "readRecords": [
+              {
+                "id": "teste-de-fagerstrom",
+                "edition": "Heatherton et al. 1991, British Journal of Addiction86:1119–1127, Table3 p1125",
+                "url": "https://doi.org/10.1111/j.1360-0443.1991.tb01879.x",
+                "retrievalURL": "https://cpb-us-e1.wpmucdn.com/sites.dartmouth.edu/dist/4/869/files/2010/10/91_Heatherton_etal_BJA.pdf",
+                "file": "fagerstrom-heatherton-1991-author-final27.pdf",
+                "readPages": [
+                  7
+                ],
+                "observations": "Six source-assigned item values are summed. Questions1 and4 each range0–3; questions2/3/5/6 each range0–1. Q1 bands: within5min,6–30min,31–60min,after60min. Q4:10orless,11–20,21–30,31ormore. Maximum10. This bank checks every assigned point tuple, not diagnosis or respondent interviewing.",
+                "unchecked": [
+                  "Only named Table3 and surrounding text visually read, not complete original paper.",
+                  "No nicotine-dependence diagnostic cutoff, current/lifetime PhenX interview, psychometric or cross-language validation.",
+                  "Permission note printed under Table3 requires author permission for other research purposes; ELUCENIA rights approval remains not-performed."
+                ],
+                "sha256": "7e995c4911640a73d63fa305005864af1592f7676c228052cc34cec348bb0580",
+                "visualEvidence": [
+                  {
+                    "file": "fagerstrom-heatherton-1991-author-final27-p7.png",
+                    "sha256": "8cdc939785ae7b94ad159a02cbddaa67a4a57d0422d1767aa542acb8e8fb9ef1"
+                  }
+                ],
+                "clinicalApproval": "not-performed",
+                "professionalLanguageApproval": "not-performed",
+                "sourceRightsApproval": "not-performed"
+              },
+              {
+                "id": "teste-de-fagerstrom",
+                "edition": "Brazil PCDT Tabagismo2020, Quadro1 PDFp8",
+                "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt_tabagismo.pdf/@@display-file/file",
+                "file": "fagerstrom-pcdt-2020-final27.pdf",
+                "readPages": [
+                  8
+                ],
+                "observations": "Protocol table prints Less than10 and More than31, unlike original1991 inclusive endpoints10/31. This typographic coverage difference is retained; original Table3, not silent filling of this table, binds the new point bank. The protocol notes that the instrument does not encompass every smoking pattern.",
+                "unchecked": [
+                  "Remaining PCDT sections not included in this new visual reading.",
+                  "Treatment or dependence classifications not approved by a point bank."
+                ],
+                "sha256": "bd3476aae32adff7069800c9ef3df247a5cea8aadd30ffffb11b65505c25f3d2",
+                "visualEvidence": [
+                  {
+                    "file": "fagerstrom-pcdt-2020-final27-p8.png",
+                    "sha256": "4ff0c152502a6d0dd6be10356fdbf87ff2ca37a48cb2c3a0f5858a272605f534"
+                  }
+                ],
+                "clinicalApproval": "not-performed",
+                "professionalLanguageApproval": "not-performed",
+                "sourceRightsApproval": "not-performed"
+              }
+            ],
+            "sourceReview": {
+              "file": "reports/review-20261003/three-further-score-primary-review-final27.json",
+              "sha256": "49449018ee564d2d981ad126b2fb703ee1c78124d83e122bc12ec256c7f5d0f0"
+            },
+            "sourceComponent": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/three-further-score-source-comparison-final27.json",
+        "evidenceSha256": "47060a3f80865748c4e6ffb9758384bbc870069734ed6feee99ac652610f922b",
+        "independentPeer": {
+          "status": "passed",
+          "scope": "Independent reading of named source sections and own expectation derivation/execution. Bank/metadata packaging needs a separate technical peer. No human clinical, translation or rights approval.",
+          "peer": {
+            "file": "reports/review-20261003/three-further-score-source-independent-review-western-final27-r2.json",
+            "sha256": "8f28bb21326d78494fc35cd16dfe612d77337f815fccb318eab269a44a9c4999"
+          },
+          "peerScope": "Independent source-section peer and own assigned-point integer expectations, frozen before imports; three current adapters Node and same-source browser-compatible VM. This is a bounded sum check and does not approve the whole clinical instrument, rubric, population expansion, diagnosis, discharge, rights or professional translation.",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "metadataPackagingPeer": {
+          "status": "passed",
+          "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+          "peer": {
+            "file": "reports/review-20261003/nine-source-bank-metadata-independent-review-western-final27.json",
+            "sha256": "e762e0f425c9251081547c86e4f1b80b86839a21223fd47712ebde9b1335a978"
+          },
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "actualAdapterExecutions": 768,
+        "actualVmExecutions": 768,
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          }
+        ],
+        "qualifications": [
+          "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+          "Original source conflicts, rights conditions, population and clinical limitations remain in the hashed primary review and peer. They are not marked approved.",
+          "Four inline records are a subset of the complete hashed downloadable bank. Every862historicalfixture and method field/formula/version is unchanged by this evidence-only candidate."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "prospectiveSource27Bindings": [
+          {
+            "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/teste-de-fagerstrom/calculator.js",
+            "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+          }
+        ],
+        "prospectiveSource27Replay": {
+          "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+          "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+    },
+    "limits": "A edição FTND revisa o FTQ e foi estudada em fumantes de cigarros. Não presumir equivalência de pontuação para todo produto de nicotina ou dispositivo eletrônico. O protocolo brasileiro citado e as rubricas integrais ainda precisam de conferência primária nesta revisão.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.158Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Pontuações integrais e PCDT brasileiro 2020 não lidos diretamente neste lote."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
+    "bytes": 5799,
+    "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "435e941c12948c6fdf5876d0253f7831481f21aa3f0273c0972bdb78b76f0485",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "4d3f7b26ef138660bcde01823b11b188f0b1afb0e01162edec3c9a17f48ee101",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "4d3f7b26ef138660bcde01823b11b188f0b1afb0e01162edec3c9a17f48ee101",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

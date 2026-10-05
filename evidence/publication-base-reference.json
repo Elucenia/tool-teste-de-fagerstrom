@@ -1,0 +1,88 @@
+{
+  "id": "teste-de-fagerstrom",
+  "repository": "Elucenia/tool-teste-de-fagerstrom",
+  "branch": "main",
+  "commit": "a5a102bd7be86c563bda1e3a871decdbd7f9b267",
+  "archiveSha256": "c3c53481de18c5201d6cd7180d199a91cf22b0e5eea68bfcb14cdbef19c3bc22",
+  "protectedFiles": [
+    {
+      "path": ".gitattributes",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19,
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 279,
+      "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 42,
+      "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3289,
+      "sha": "57bc1d1b96da82ad926be9db1fbb9ed0f5ecaa0f",
+      "sha256": "ae1c815206aac4032d13634efac182cc3cac99f497fa3ebb613fcd166f514c8e"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": "blob",
+      "mode": "100644",
+      "size": 902,
+      "sha": "d99cdcf063019bbfb79d03d63d37e482f435f2bc",
+      "sha256": "a5b209fdd7c850e715886b22caac9fe9043c339e1e695987260d8724f53fe545"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1470,
+      "sha": "564013db1cf5ed848cc6c1a7808bbaeb8765b52d",
+      "sha256": "bee8c149c764eae3966dc1151df606192ffc168375675495681a000c407ea2db"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11358,
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1630,
+      "sha": "13fe7355659fa9665e792e75a0863aad58693f71",
+      "sha256": "f5f7e7a9acf3e5678e76404ed1da67fbdc16373e31c4f446416fba0857d4c6d3"
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 894,
+      "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+    }
+  ],
+  "receipt": {
+    "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
+    "bytes": 6066154,
+    "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
+  },
+  "remoteCodeExecuted": false,
+  "freshBranchReadRequiredBeforePublication": true
+}
