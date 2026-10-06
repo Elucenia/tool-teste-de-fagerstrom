@@ -101,3 +101,35 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Dependência muito baixa (0 a 2 pontos)
+
+Abordagem cognitivo-comportamental pode ser suficiente; farmacoterapia conforme avaliação individual.
+
+
+### 2
+
+Dependência baixa (3 a 4 pontos)
+
+Pelo PCDT, Fagerström ≤ 4 é um dos critérios para priorizar a abordagem comportamental isolada.
+
+
+### 3
+
+Dependência média (5 pontos)
+
+Associar abordagem cognitivo-comportamental e farmacoterapia costuma ser indicado.
+
+
+### 4
+
+Dependência muito elevada (8 a 10 pontos)
+
+Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental.
+

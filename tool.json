@@ -349,7 +349,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "FTND/Heatherton 1991:6 itens, total 0–10; sem Tolerance Questionnaireoriginal; PCDTtabagismo 2020",
-    "implementationVersion": "teste-de-fagerstrom@native-2026-10-03+5f7b36571494",
+    "implementationVersion": "teste-de-fagerstrom@native-2026-10-05+42bb4a549561",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/1932883/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -661,7 +661,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+      "implementationHash": "42bb4a54956125bdb6c742a6c2848b62307bcbf20fd149040f75c2963da39781",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "teste-de-fagerstrom@native-2026-10-03+5f7b36571494",
+          "previousImplementationHash": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22",
+          "implementationHash": "42bb4a54956125bdb6c742a6c2848b62307bcbf20fd149040f75c2963da39781",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "0bbfeff5765cc9eb469ee1ede79aec5e9ddb0b39e61502ca1a8670383c437f11",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A edição FTND revisa o FTQ e foi estudada em fumantes de cigarros. Não presumir equivalência de pontuação para todo produto de nicotina ou dispositivo eletrônico. O protocolo brasileiro citado e as rubricas integrais ainda precisam de conferência primária nesta revisão.",
     "sourceLimitEvidence": {
@@ -680,20 +708,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/teste-de-fagerstrom/calculator.js",
-    "bytes": 5799,
-    "sha256": "5f7b36571494055753be33337bbcc91dab8c039dc5e0cab1aefa7d7e72c78e22"
+    "bytes": 6004,
+    "sha256": "42bb4a54956125bdb6c742a6c2848b62307bcbf20fd149040f75c2963da39781"
   },
-  "sourceToolSha256": "435e941c12948c6fdf5876d0253f7831481f21aa3f0273c0972bdb78b76f0485",
+  "sourceToolSha256": "eb1ea0275a8ddfe8f28580cf09a52a86718510b384a35ed780f16e03e3d80363",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "4d3f7b26ef138660bcde01823b11b188f0b1afb0e01162edec3c9a17f48ee101",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "4d3f7b26ef138660bcde01823b11b188f0b1afb0e01162edec3c9a17f48ee101",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

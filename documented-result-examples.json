@@ -1,0 +1,707 @@
+{
+  "id": "teste-de-fagerstrom",
+  "implementationVersion": "teste-de-fagerstrom@native-2026-10-05+42bb4a549561",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependência muito baixa (0 a 2 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Abordagem cognitivo-comportamental pode ser suficiente; farmacoterapia conforme avaliação individual.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependência baixa (3 a 4 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Pelo PCDT, Fagerström ≤ 4 é um dos critérios para priorizar a abordagem comportamental isolada.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependência média (5 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Associar abordagem cognitivo-comportamental e farmacoterapia costuma ser indicado.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependência muito elevada (8 a 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Maior chance de síndrome de abstinência: associar farmacoterapia à abordagem comportamental.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Very low dependence (0 to 2 points)",
+            "locale": "en",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "A cognitive-behavioral approach may be sufficient; pharmacotherapy according to individual assessment.",
+            "locale": "en",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Low dependence (3 to 4 points)",
+            "locale": "en",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "According to the PCDT, Fagerström ≤ 4 is one of the criteria for prioritizing behavioral treatment alone.",
+            "locale": "en",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate dependence (5 points)",
+            "locale": "en",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "Combining cognitive-behavioral treatment and pharmacotherapy is usually indicated.",
+            "locale": "en",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Very high dependence (8 to 10 points)",
+            "locale": "en",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "Higher likelihood of withdrawal syndrome: combine pharmacotherapy with behavioral treatment.",
+            "locale": "en",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependencia muy baja (0 a 2 puntos)",
+            "locale": "es",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "Un abordaje cognitivo-conductual puede ser suficiente; farmacoterapia según evaluación individual.",
+            "locale": "es",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependencia baja (3 a 4 puntos)",
+            "locale": "es",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "Según el PCDT, Fagerström ≤ 4 es uno de los criterios para priorizar el abordaje conductual aislado.",
+            "locale": "es",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependencia media (5 puntos)",
+            "locale": "es",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "Suele indicarse asociar el abordaje cognitivo-conductual y la farmacoterapia.",
+            "locale": "es",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dependencia muy elevada (8 a 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "Mayor probabilidad de síndrome de abstinencia: asociar farmacoterapia al abordaje conductual.",
+            "locale": "es",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépendance très faible (0 à 2 points)",
+            "locale": "fr",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "Une prise en charge cognitivo-comportementale peut être suffisante ; pharmacothérapie selon l’évaluation individuelle.",
+            "locale": "fr",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépendance faible (3 à 4 points)",
+            "locale": "fr",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "Selon le PCDT, un score de Fagerström ≤ 4 est l’un des critères pour privilégier une prise en charge comportementale seule.",
+            "locale": "fr",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépendance modérée (5 points)",
+            "locale": "fr",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "L’association d’une prise en charge cognitivo-comportementale et d’une pharmacothérapie est habituellement indiquée.",
+            "locale": "fr",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépendance très élevée (8 à 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "Risque plus élevé de syndrome de sevrage : associer la pharmacothérapie à la prise en charge comportementale.",
+            "locale": "fr",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sehr geringe Abhängigkeit (0 bis 2 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "Ein kognitiv-verhaltensorientierter Ansatz kann ausreichen; Pharmakotherapie nach individueller Beurteilung.",
+            "locale": "de",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Geringe Abhängigkeit (3 bis 4 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "Laut PCDT ist Fagerström ≤ 4 eines der Kriterien, um einen rein verhaltensorientierten Ansatz zu priorisieren.",
+            "locale": "de",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige Abhängigkeit (5 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "Die Kombination aus kognitiv-verhaltensorientierter Behandlung und Pharmakotherapie ist meist indiziert.",
+            "locale": "de",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sehr hohe Abhängigkeit (8 bis 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "Höhere Wahrscheinlichkeit eines Entzugssyndroms: Pharmakotherapie mit verhaltensorientierter Behandlung kombinieren.",
+            "locale": "de",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dipendenza molto bassa (0 a 2 punti)",
+            "locale": "it",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "Un approccio cognitivo-comportamentale può essere sufficiente; terapia farmacologica secondo la valutazione individuale.",
+            "locale": "it",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dipendenza bassa (3 a 4 punti)",
+            "locale": "it",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "Secondo il PCDT, Fagerström ≤ 4 è uno dei criteri per dare priorità al solo approccio comportamentale.",
+            "locale": "it",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dipendenza moderata (5 punti)",
+            "locale": "it",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "Di solito è indicata l’associazione di approccio cognitivo-comportamentale e terapia farmacologica.",
+            "locale": "it",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dipendenza molto elevata (8 a 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "Maggiore probabilità di sindrome da astinenza: associare la terapia farmacologica all’approccio comportamentale.",
+            "locale": "it",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "اعتماد منخفض جدًا (0 إلى 2 نقطة)",
+            "locale": "ar",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "قد يكون النهج المعرفي السلوكي كافيًا؛ وتُستخدم المعالجة الدوائية وفقًا للتقييم الفردي.",
+            "locale": "ar",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "اعتماد منخفض (3 إلى 4 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "وفقًا لـ PCDT، فإن فاغرستروم ≤ 4 هو أحد المعايير لإعطاء الأولوية للنهج السلوكي وحده.",
+            "locale": "ar",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "اعتماد متوسط (5 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "عادةً ما يُنصح بدمج النهج المعرفي السلوكي مع المعالجة الدوائية.",
+            "locale": "ar",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "اعتماد مرتفع جدًا (8 إلى 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "احتمال أعلى لمتلازمة الانسحاب: يُدمج العلاج الدوائي مع النهج السلوكي.",
+            "locale": "ar",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "依赖性很低（0至2分）",
+            "locale": "zh",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "认知行为方法可能已足够；药物治疗根据个体评估而定。",
+            "locale": "zh",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "低度依赖（3至4分）",
+            "locale": "zh",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "根据 PCDT，Fagerström ≤ 4 是优先采用单纯行为干预的标准之一。",
+            "locale": "zh",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度依赖（5分）",
+            "locale": "zh",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "通常建议联合认知行为治疗和药物治疗。",
+            "locale": "zh",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "极高依赖（8至10分）",
+            "locale": "zh",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "戒断综合征的可能性更高：将药物治疗与行为干预联合。",
+            "locale": "zh",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "依存度が非常に低い（0～2点）",
+            "locale": "ja",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "認知行動的アプローチで十分な場合がある；薬物療法は個別評価に応じて行う。",
+            "locale": "ja",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "依存度が低い（3～4点）",
+            "locale": "ja",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "PCDTでは、Fagerström ≤ 4 は行動療法のみを優先する基準の一つである。",
+            "locale": "ja",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "依存度が中等度（5点）",
+            "locale": "ja",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "認知行動療法と薬物療法の併用が通常適応となる。",
+            "locale": "ja",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "依存度が非常に高い（8～10点）",
+            "locale": "ja",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "離脱症候群の可能性が高い：薬物療法を行動療法と併用する。",
+            "locale": "ja",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Primeiro cigarro após 1 hora, 10 por dia, demais \"não\": 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "बहुत कम निर्भरता (0 से 2 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-36e5063ea8b2d73acda7"
+          },
+          "note": {
+            "text": "संज्ञानात्मक-व्यवहारिक दृष्टिकोण पर्याप्त हो सकता है; औषधीय उपचार व्यक्तिगत मूल्यांकन के अनुसार।",
+            "locale": "hi",
+            "template": "documented-authored-0222a871530b092bbd80"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "31 a 60 min, 11 a 20 por dia, difícil em lugares proibidos, primeiro da manhã: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "कम निर्भरता (3 से 4 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-e4ddd06976ebdb3db9ac"
+          },
+          "note": {
+            "text": "PCDT के अनुसार, Fagerström ≤ 4 केवल व्यवहारिक दृष्टिकोण को प्राथमिकता देने के मानदंडों में से एक है।",
+            "locale": "hi",
+            "template": "documented-authored-e6eda6d2a95b4df029fa"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "6 a 30 min, 11 a 20 por dia, fuma mais pela manhã, fuma doente: 5 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम निर्भरता (5 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-3dacf4d2910d2ccd39c8"
+          },
+          "note": {
+            "text": "संज्ञानात्मक-व्यवहारिक दृष्टिकोण और औषधीय उपचार का संयोजन आमतौर पर संकेतित है।",
+            "locale": "hi",
+            "template": "documented-authored-4d45ba286f97f8473255"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Até 5 min, 21 a 30 por dia, primeiro da manhã, fuma mais pela manhã, fuma doente: 8 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "बहुत अधिक निर्भरता (8 से 10 अंक)",
+            "locale": "hi",
+            "template": "documented-authored-22c76055d0937b9923f2"
+          },
+          "note": {
+            "text": "विथड्रॉल सिंड्रोम की अधिक संभावना: औषधीय उपचार को व्यवहारिक दृष्टिकोण के साथ जोड़ें।",
+            "locale": "hi",
+            "template": "documented-authored-a8a401bd64c03a66a31a"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

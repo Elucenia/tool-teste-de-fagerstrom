@@ -101,3 +101,35 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Very low dependence (0 to 2 points)
+
+A cognitive-behavioral approach may be sufficient; pharmacotherapy according to individual assessment.
+
+
+### 2
+
+Low dependence (3 to 4 points)
+
+According to the PCDT, Fagerström ≤ 4 is one of the criteria for prioritizing behavioral treatment alone.
+
+
+### 3
+
+Moderate dependence (5 points)
+
+Combining cognitive-behavioral treatment and pharmacotherapy is usually indicated.
+
+
+### 4
+
+Very high dependence (8 to 10 points)
+
+Higher likelihood of withdrawal syndrome: combine pharmacotherapy with behavioral treatment.
+

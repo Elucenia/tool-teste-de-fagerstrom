@@ -101,3 +101,35 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Dépendance très faible (0 à 2 points)
+
+Une prise en charge cognitivo-comportementale peut être suffisante ; pharmacothérapie selon l’évaluation individuelle.
+
+
+### 2
+
+Dépendance faible (3 à 4 points)
+
+Selon le PCDT, un score de Fagerström ≤ 4 est l’un des critères pour privilégier une prise en charge comportementale seule.
+
+
+### 3
+
+Dépendance modérée (5 points)
+
+L’association d’une prise en charge cognitivo-comportementale et d’une pharmacothérapie est habituellement indiquée.
+
+
+### 4
+
+Dépendance très élevée (8 à 10 points)
+
+Risque plus élevé de syndrome de sevrage : associer la pharmacothérapie à la prise en charge comportementale.
+

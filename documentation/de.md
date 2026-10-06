@@ -101,3 +101,35 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Sehr geringe Abhängigkeit (0 bis 2 Punkte)
+
+Ein kognitiv-verhaltensorientierter Ansatz kann ausreichen; Pharmakotherapie nach individueller Beurteilung.
+
+
+### 2
+
+Geringe Abhängigkeit (3 bis 4 Punkte)
+
+Laut PCDT ist Fagerström ≤ 4 eines der Kriterien, um einen rein verhaltensorientierten Ansatz zu priorisieren.
+
+
+### 3
+
+Mäßige Abhängigkeit (5 Punkte)
+
+Die Kombination aus kognitiv-verhaltensorientierter Behandlung und Pharmakotherapie ist meist indiziert.
+
+
+### 4
+
+Sehr hohe Abhängigkeit (8 bis 10 Punkte)
+
+Höhere Wahrscheinlichkeit eines Entzugssyndroms: Pharmakotherapie mit verhaltensorientierter Behandlung kombinieren.
+
